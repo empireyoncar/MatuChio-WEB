@@ -1,3 +1,4 @@
+/* eslint-disable */ 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,20 +9,17 @@
     margin: 0; 
 } 
 
-.remove-arrow { 
-    -moz-appearance: textfield; 
-}
-
 body {
-    cursor: url('~/public/img/cursor/Cursor.png'), auto;
-}
-button:hover, .news-body:hover{
-    cursor: url('~/public/img/cursor/CursorGet.png'), auto;
-}
-a:hover{
-    cursor: url('~/public/img/cursor/CursorGet.png'), auto;
+  cursor: url('/img/cursor/Cursor.png'), auto;
 }
 
+button:hover, .news-body:hover {
+  cursor: url('/img/cursor/CursorGet.png'), auto;
+}
+
+a:hover {
+  cursor: url('/img/cursor/CursorGet.png'), auto;
+}
 
 p {
     white-space: pre;

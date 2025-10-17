@@ -5,7 +5,7 @@ import NewsCard from './(components)/NewsCard';
 import NewsComplete from '@/app/_models/NewsComplete';
 import ChangePageButton from './(components)/ChangePageButton';
 
-export default async function News({page} : {page: number}) {
+export default async function NewsSection({ page }: { page: number }) {
 
   page = page >= 0 ? page : 0;
 
